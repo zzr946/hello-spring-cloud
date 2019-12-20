@@ -1,0 +1,31 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888
+      name: spring-cloud-feign #配置文件名 git仓库中的文件名,不包含环境(spring-cloud-feign-dev.yml)
+      label: master #分支
+      profile: dev #激活哪个配置，由配置文件后的-dev等指定
+
+      #其他配置都可以不需要了因为在Git仓库中的配置文件中都已经配置了（云配置）
+
+#  application:
+#    name: spring-cloud-feign #服务发现者的名字
+#    #客户端分布式配置中心
+#  thymeleaf: #模板引擎的配置
+#    cache: false
+#    mode: LEGACYHTML5
+#    encoding: UTF-8
+#    servlet:
+#      content-type: text/html
+#
+#server:
+#  port: 8765 #端口为8765
+##Eureka设置
+#eureka:
+#  client:
+#    service-url:
+#      default-zone: http://localhost:8761/eureka/
+#
+#feign:
+#  hystrix:
+#    enabled: true #开启熔断器

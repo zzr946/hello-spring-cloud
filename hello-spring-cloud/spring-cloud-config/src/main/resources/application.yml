@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: spring-cloud-config #服务名称
+  cloud:
+    config:
+      label: master #仓库分支
+      server:
+        git:
+          uri: https://github.com/zzr946/SpringCloud-Config.git #仓库地址 例如：https://github.com/zzr946/SpringCloud-Config.git
+          search-paths: config #存放配置文件的目录
+          username: 1351892354@qq.com #git用户名
+          password: mr.zhao19980910 #git密码
+
+server:
+  port: 8888 #端口默认为8888，不能修改
+    #如果要修改，则需要另外创建配置文件bootstrap.yml或者bootstrap.properties，在这里面指定端口
+  #启动项目加载配置文件时,都会被加载
+
+#Eureka配置
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
