@@ -1,0 +1,16 @@
+server:
+  port: 8761 #服务的端口号
+
+spring:
+  zipkin:
+    base-url: http://localhost:9411
+
+# eureka配置
+eureka:
+  instance:
+    hostname: eureka-server  # eureka实例的主机名
+  client: #eureka客户端配置
+    register-with-eureka: false #不把自己注册到eureka上
+    fetch-registry: false #不从eureka上来获取服务的注册信息
+    service-url: #指定eureka注册中心的地址
+      defaultZone: http://localhost:8761/eureka/

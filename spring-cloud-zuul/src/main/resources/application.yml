@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: spring-cloud-zuul #服务名
+  zipkin:
+    base-url: http://localhost:9411
+
+server:
+  port: 8769 #端口号
+
+#Eureka配置
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+#Zull配置
+zuul:
+  routes: #路由设置
+    api-a: #路由a:当访问/api/a/**时转发到spring-cloud-ribbon
+      path: /api/a/**
+      serviceId: spring-cloud-ribbon
+    api-b: #路由a:当访问/api/b/**时转发到spring-cloud-feign
+      path: /api/b/**
+      serviceId: spring-cloud-feign

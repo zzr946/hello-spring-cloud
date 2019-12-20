@@ -1,0 +1,16 @@
+server:
+  port: 8762 #服务提供者的端口
+spring:
+  application:
+    name: spring-cloud-provider #服务提供者的名字
+  zipkin:
+    base-url: http://localhost:9411
+
+#注册中心的配置
+eureka:
+  instance:
+    prefer-ip-address: true # 注册服务的时候使用服务的ip地址
+  client:
+    serviceUrl:  #指定eureka注册中心的地址
+      defaultZone: http://localhost:8761/eureka/
+
