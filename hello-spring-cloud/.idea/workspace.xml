@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="791a6089-d9ff-49b3-ade6-dd84c4c041be" name="Default Changelist" comment="" />
+    <list default="true" id="791a6089-d9ff-49b3-ade6-dd84c4c041be" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/spring-cloud-eureka/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-provider/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-ribbon/target/" />
@@ -21,10 +26,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-config/pom.xml">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="190">
+              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -49,7 +54,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -79,7 +84,6 @@
         <option value="$PROJECT_DIR$/spring-cloud-zipkin/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloud-Config/config/spring-cloud-feign-dev.yml" />
         <option value="$PROJECT_DIR$/SpringCloud-Config/config/spring-cloud-feign-prod.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-config/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-provider/pom.xml" />
@@ -92,6 +96,7 @@
         <option value="$PROJECT_DIR$/spring-cloud-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-zuul/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-config/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -126,9 +131,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hello-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-spring-cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,9 +159,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.HTML" />
   </component>
   <component name="RecentsManager">
@@ -243,6 +258,7 @@
       <workItem from="1576635246404" duration="42910000" />
       <workItem from="1576749458423" duration="13617000" />
       <workItem from="1576770043102" duration="1426000" />
+      <workItem from="1576810961422" duration="408000" />
     </task>
     <task id="LOCAL-00001" summary="初始化提交">
       <created>1576740524372</created>
@@ -311,7 +327,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57981000" />
+    <option name="totallyTimeSpent" value="58389000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -326,7 +342,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Web" order="0" sideWeight="0.5019763" side_tool="true" weight="0.27231467" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49802372" visible="true" weight="0.2753404" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49802372" visible="true" weight="0.27987897" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -346,18 +362,18 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.25081968" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.04918033" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.29508197" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.40163934" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49924356" weight="0.4295082" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="bottom" id="Version Control" order="16" weight="0.4295082" />
       <window_info anchor="bottom" id="JRebel Console" order="17" side_tool="true" />
-      <window_info anchor="bottom" id="Run Dashboard" order="18" sideWeight="0.49924356" weight="0.51967216" />
+      <window_info anchor="bottom" id="Run Dashboard" order="18" sideWeight="0.49924356" visible="true" weight="0.18852459" />
       <window_info anchor="right" id="Bean Validation" order="0" weight="0.32980332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.17246597" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.17246597" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Database" order="7" />
@@ -582,13 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-feign/src/main/resources/application-prod.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -648,7 +657,14 @@
     <entry file="file://$PROJECT_DIR$/spring-cloud-config/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
         </state>
       </provider>
     </entry>
